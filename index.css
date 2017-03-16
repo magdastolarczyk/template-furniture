@@ -22,7 +22,7 @@ body {
   padding-left: 245px;
 }
 
-*, *:after {
+*, *:after, *:before {
   box-sizing: border-box;
 }
 
@@ -236,7 +236,8 @@ p, ul, li, var, .item-title, .input, .label {
   display: flex;
   flex-direction: column;
   background: #CC9F0D;
-  overflow-y: scroll;
+  overflow: hidden;
+  overflow-y: auto;
   justify-content: space-between;
 }
 
