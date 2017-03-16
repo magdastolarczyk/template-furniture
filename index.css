@@ -593,6 +593,7 @@ p, ul, li, var, .item-title, .input, .label {
   .aside {
     position: static;
     height: auto;
+    overflow: hidden;
   }
 
   .main {
