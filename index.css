@@ -11,8 +11,8 @@ html, body {
   padding: 0;
   margin: 0;
   font-size: 16px;
-  background: #1C4245;
-  color: white;
+  background: #fdfdfd;
+  color: #424f60;
   font-family: Libre Baskerville, serif;
 }
 
@@ -35,7 +35,7 @@ p {
 p > strong {
   color: #1C4245;
   font-weight: normal;
-  border-bottom: 2px solid #0FD6AB;
+  border-bottom: 1px solid #387787;
 }
 
 img {
@@ -55,7 +55,7 @@ h1 {
 }
 
 h1 > strong, h2 > span {
-  color: #0FD6AB;
+  color: #387787;
 }
 
 h1 > strong {
@@ -94,8 +94,8 @@ p, ul, li, var, .item-title, .input, .label {
 
 .item-btn.submit {
   margin-top: 30px;
-  background: #0FD6AB;
-  border-color: #0FD6AB;
+  background: #387787;
+  border-color: #387787;
 }
 
 .timeline {
@@ -119,7 +119,7 @@ p, ul, li, var, .item-title, .input, .label {
   transform: translateX(-50%) translateY(100%);
   font-size: 1.5rem;
   left: 50%;
-  color: #0FD6AB;
+  color: #387787;
 }
 
 .timeline-time {
@@ -130,7 +130,7 @@ p, ul, li, var, .item-title, .input, .label {
   height: 2em;
   line-height: 2em;
   margin-top: -1em;
-  color: #0FD6AB;
+  color: #387787;
 }
 
 .timeline-event {
@@ -164,7 +164,7 @@ p, ul, li, var, .item-title, .input, .label {
   margin-top: -13px;
   width: 26px;
   height: 26px;
-  border: 8px solid #0FD6AB;
+  border: 8px solid #387787;
   border-radius: 50%;
   background: white;
   z-index: 1000;
@@ -207,13 +207,13 @@ p, ul, li, var, .item-title, .input, .label {
   left: 50%;
   top: 0;
   margin-left: -4px;
-  background: #0FD6AB;
+  background: #387787;
   border-radius: 4px;
   z-index: 100;
 }
 
 .logo, .logo.pad {
-  color: #785B00;
+  color: white;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 3px;
@@ -233,7 +233,7 @@ p, ul, li, var, .item-title, .input, .label {
   height: 100%;
   display: flex;
   flex-direction: column;
-  background: #CC9F0D;
+  background: #146C78;
   overflow: hidden;
   overflow-y: auto;
   justify-content: space-between;
@@ -246,7 +246,7 @@ p, ul, li, var, .item-title, .input, .label {
 .nav a {
   position: relative;
   display: block;
-  color: #785B00;
+  color: white;
   font-size: 2em;
   text-decoration: none;
   transition: 0.2s;
@@ -260,7 +260,7 @@ p, ul, li, var, .item-title, .input, .label {
   height: 3px;
   left: 24px;
   bottom: 19px;
-  background: #CF1C04;
+  background: #bebe41;
   transform: scaleX(0.15);
   transform-origin: left;
   transition: 0.5s;
@@ -277,7 +277,7 @@ p, ul, li, var, .item-title, .input, .label {
 
 .nav a:hover {
   color: white;
-  background: #CF1C04;
+  background: #bebe41;
 }
 
 .nav a:hover:before {
@@ -293,7 +293,7 @@ p, ul, li, var, .item-title, .input, .label {
 
 .footer {
   font-size: 0.8em;
-  color: #785B00;
+  color: #9b9b35;
 }
 
 .main {
@@ -307,8 +307,18 @@ p, ul, li, var, .item-title, .input, .label {
 .footer-box {
   width: 100%;
   padding-top: 5px;
-  border-top: 1px solid white;
+  border-top: 1px solid #146C78;
   font-style: normal;
+}
+
+.footer-color {
+  background-color: #e0e0e0;
+  margin: 0;
+  padding: 0;
+}
+
+#contact {
+  margin: 0;
 }
 
 .footer-box p {
@@ -321,8 +331,8 @@ p, ul, li, var, .item-title, .input, .label {
 }
 
 .main a {
-  color: #0FD6AB;
-  border-bottom: 2px solid #0FD6AB;
+  color: #387787;
+  border-bottom: 2px solid #387787;
 }
 
 .row {
@@ -359,6 +369,7 @@ p, ul, li, var, .item-title, .input, .label {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  border: 2px solid #dddddd;
 }
 
 .item-title {
@@ -385,7 +396,7 @@ p, ul, li, var, .item-title, .input, .label {
   padding: 0 20px;
   height: 50px;
   line-height: 50px;
-  border: 1px solid #0FD6AB;
+  border: 1px solid #387787;
   color: #1C4245;
   background: none;
   font-size: 0.8em;
@@ -407,12 +418,12 @@ p, ul, li, var, .item-title, .input, .label {
 }
 
 .item-btn:not(.disabled):hover {
-  border-color: #CF1C04;
-  color: #CF1C04;
+  border-color: #bebe41;
+  color: #bebe41;
 }
 
 .item-btn-filled:not(.disabled):hover {
-  background: #CF1C04;
+  background: #bebe41;
   color: white;
 }
 
@@ -421,9 +432,9 @@ p, ul, li, var, .item-title, .input, .label {
 }
 
 .item-btn-filled {
-  background: #0FD6AB;
+  background: #387787;
   color: white;
-  border-color: #0FD6AB;
+  border-color: #387787;
 }
 
 .item-price {
@@ -480,7 +491,7 @@ p, ul, li, var, .item-title, .input, .label {
 
 .hamburger .l {
   position: absolute;
-  background: #785B00;
+  background: white;
   width: 100%;
   height: 5px;
   left: 0;
@@ -523,7 +534,7 @@ p, ul, li, var, .item-title, .input, .label {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #0FD6AB;
+  background: #387787;
   color: white;
   transition: 1s;
   animation: toast-slide-in 0.35s;
